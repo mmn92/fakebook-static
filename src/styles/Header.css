@@ -1,0 +1,30 @@
+.header {
+  background-color: #4a90e2;
+  height: 64px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+
+.header > .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header > .profile {
+  display: flex;
+  align-items: center;
+}
+
+.header > .profile > .profile-link {
+  font-size: 14px;
+}
+
+.header > .profile > .profile-icon {
+  width: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
